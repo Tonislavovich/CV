@@ -26,14 +26,12 @@ h3 {
 .colonnes-profil {
     display:flex;
     gap: 150px;
-    align-items: center;
     margin-right: 10px;
 }
 
 .colonnes-titre {
     display:flex;
     gap: 40px;
-    align-items: center;
     margin-right: 10px;
 }
 
