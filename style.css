@@ -1,17 +1,38 @@
-body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT';
     font-size: 20px;
     text-align: justify;
     background-color: rgba(252, 240, 215, 0.495);
+    margin: 20px;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(209, 202, 187, 0.782);
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(209, 202, 187, 0.782);
+}
+
+a {
+    color: rgb(86, 85, 82);
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 400%;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 250%;
     color: rgb(66, 66, 66);
+    text-transform: uppercase;
 }
 
 h3 {
@@ -20,7 +41,7 @@ h3 {
 
 .sous-titre {
     align-self: flex-end;
-    margin-left: 180px;
+    margin-left: 160px;
 }
 
 .colonnes-profil {
@@ -33,6 +54,7 @@ h3 {
     display:flex;
     gap: 40px;
     margin-right: 10px;
+    align-items: center;
 }
 
 .colonnes {
@@ -75,10 +97,26 @@ hr {
     border: none;
 }
 
+.photo {
+    width: 250px;
+    height: 200px;
+    align-items: center;
+}
+
 img {
     width: 200px;
-    height: auto;
     border-radius: 5px;
     border: 3px solid rgb(161, 161, 161);
     margin-left: 20px;
+}
+
+.colonnes-footer {
+    display: flex;
+    align-items: center;
+}
+
+.cliquable {
+    width: 30px;
+    border: none;
+    border-radius: 0px;
 }
