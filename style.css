@@ -32,6 +32,7 @@ h3 {
 .colonnes-titre {
     display:flex;
     gap: 40px;
+    width: 1000px;
     margin-right: 10px;
 }
 
