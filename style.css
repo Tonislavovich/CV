@@ -1,0 +1,85 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(252, 240, 215, 0.495);
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 250%;
+    color: rgb(66, 66, 66);
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+.sous-titre {
+    align-self: flex-end;
+    margin-left: 180px;
+}
+
+.colonnes-profil {
+    display:flex;
+    gap: 150px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.colonnes-titre {
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.colonnes {
+    display:flex;
+    gap: 150px;
+    margin-right: 10px;
+}
+
+.profil-elmt {
+    font-weight: bold;
+}
+
+.etablissement {
+    color: rgb(89, 89, 89);
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.dates {
+    font-size: 80%;
+    color: rgb(176, 176, 176);
+    margin-top: 5px;
+}
+
+e {
+    font-weight: bold;
+}
+
+li {
+    width: 500px;
+}
+
+.ls-principale {
+    width: 1000px;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(161, 161, 161);
+    border: none;
+}
+
+img {
+    width: 200px;
+    border-radius: 5px;
+    border: 3px solid rgb(161, 161, 161);
+    margin-left: 20px;
+}
